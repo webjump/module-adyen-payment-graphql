@@ -1,0 +1,14 @@
+# Copyright © Magento, Inc. All rights reserved.
+# See COPYING.txt for license details.
+
+input PaymentMethodInput {
+    adyen_cc: AdyenCCInput @doc(description: "Defines the required attributes for Authorize.Net payments")
+}
+
+input AdyenCCInput {
+    number: String! @doc(description: "Adyen's description of the transaction request")
+    cvc: String! @doc(description: "Adyen's description of the transaction request")
+    expiryMonth: String! @doc(description: "Adyen's description of the transaction request")
+    expiryYear: String! @doc(description: "Adyen's description of the transaction request")
+    cc_type: String! @doc(description: "Adyen's description of the transaction request")
+}

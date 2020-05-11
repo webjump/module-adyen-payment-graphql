@@ -1,6 +1,8 @@
 #Adyen GrahpQl
 
-## Request Exemple
+Add suporte to Adyen module suporte credit card payments by graphql layer
+
+## Request Example
 
 ```graphql
 mutation (

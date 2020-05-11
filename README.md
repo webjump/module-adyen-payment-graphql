@@ -1,4 +1,4 @@
-#Adyen GrahpQl
+# Adyen GrahpQl
 
 Add suporte to Adyen module suporte credit card payments by graphql layer
 

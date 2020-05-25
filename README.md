@@ -1,6 +1,6 @@
 # Adyen GrahpQl
 
-Add suporte to Adyen module suporte credit card payments by graphql layer
+adds support for graphql to the adyen magento 2 module
 
 ## Request Example
 
